@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taco hut contact</title>
+    <link rel="icon" href="images/taco.jpeg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>contact us</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">home</a></li>
+        <li>
+          <a href="/index.html#about">about <abbr title="The taco hut">LTS</abbr></a>
+        </li>
+        <li><a href="/#menu">menu</a></li>
+
+        <li><a href="hours.html">store hours</a></li>
+      </ul>
+    </nav>
+    <figure>
+      <img
+        src="images/ambience.png"
+        alt="ambience"
+        title="we love tacos"
+        width="400"
+        height="250"
+      />
+      <figcaption><h3>we love tacos</h3></figcaption>
+    </figure>
+
+    <hr />
+
+    <header>
+      <hr />
+      <main>
+        <section>
+          <h2>contact form</h2>
+          <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+              <legend>send us a message</legend>
+              <p>
+                <label for="name">name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="your name"
+                  required
+                />
+              </p>
+
+              <p>
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="name"
+                  placeholder="your email"
+                  required
+                />
+              </p>
+              <p>
+                <label for="message">your message</label>
+                <br />
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="type your message"
+                ></textarea>
+              </p>
+            </fieldset>
+            <button type="submit">send</button>
+            <button type="reset">reset</button>
+          </form>
+        </section>
+        <section>
+          <h2>our location</h2>
+          <address>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            quos similique enim.
+          </address>
+        </section>
+      </main>
+      <hr />
+      <footer>
+        <p>copyright &copy; THe taco hut</p>
+      </footer>
+    </header>
+  </body>
+</html>
